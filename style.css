@@ -46,11 +46,26 @@ h1 {
     mix-blend-mode: overlay;
 }
 
+a.github {
+    bottom: 24px;
+    position: absolute;
+    right: 24px;
+    transform: scale(1);
+    transition: .3s ease;
+    width: 30px;
+}
+a.github:hover {
+    transform: scale(1.1);
+}
 @media screen and (max-width: 1000px) {
     main {
         margin: 24px;
     }
     h1 {
         font-size: 20px;
+    }
+    a.github {
+        margin: 0 -15px 0 0;
+        right: 50%;
     }
 }
