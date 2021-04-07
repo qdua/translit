@@ -1,0 +1,53 @@
+*, html, body {
+    box-sizing: border-box;
+    font: 16px/1 sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(45deg, LavenderBlush, Thistle);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+}
+
+main {
+    background: url(translit.svg) no-repeat center 24px / 40px auto, linear-gradient(45deg, violet, pink);
+    border-radius: 2vmin;
+    box-shadow: 0 1vmin 8vmin rgba(131, 43, 116, 0.5);
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 100px 50px 50px;
+    transition: 0.3s ease;
+}
+
+textarea {
+    background: linear-gradient(white, lightgrey);
+    border: none;
+    border-radius: 1vmin;
+    box-shadow: 0 1vmin 5vmin -0.2vmin rgba(66, 5, 56, 0.5), 0 0 2vmin white inset;
+    outline: none;
+    overflow: hidden;
+    padding: 16px;
+    resize: none;
+    width: 100%;
+}
+
+.start {
+    margin: 0 0 24px 0;
+}
+
+h1 {
+    font-size: 30px;
+    padding: 0 0 24px;
+    text-align: center;
+    mix-blend-mode: overlay;
+}
+
+@media screen and (max-width: 1000px) {
+    main {
+        margin: 24px;
+    }
+}
