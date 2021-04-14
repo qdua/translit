@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(document).ready(function() {
     function translit(word) {
         var converter = {
             'À': 'A',
@@ -396,7 +396,25 @@ $(document).ready(function () {
         return answer;
     }
 
-    $('.start').bind('change keyup input click', function () {
-        $('.final').val(translit($('.start').val(), 0))
+    $('#start').bind('change keyup input click', function() {
+        $('#final').val(translit($('#start').val(), 0));
+        $('button').addClass('open');
+        $('#copy').addClass('open');
     });
+
+    $('button').click(function() {
+        $(this).removeClass('open');
+        $('#copy').removeClass('open');
+    });
+
+    $("#copy").click(function() {
+        var $textarea = $("#final");
+        $textarea.select();
+        document.execCommand("copy");
+        $('#copy').after('<span id="incopy"><br>скопійовано...</span>');
+        setInterval(function() {
+            $('#incopy').fadeOut();
+        }, 2000);
+    });
+
 });

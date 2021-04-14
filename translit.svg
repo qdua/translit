@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="40.534" height="46.981" viewBox="0 0 40.534 46.981">
-  <g id="Group_2" data-name="Group 2" transform="translate(-398.234 -596.01)">
-    <path id="Path_5" data-name="Path 5" d="M18.594,3.2,6.853,14.944H28.917a6.418,6.418,0,1,1,0,12.836H6.853" transform="translate(401.933 594.929)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <path id="Path_6" data-name="Path 6" d="M8.53,3.2h6.386V9.561" transform="translate(405.61 594.929)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <path id="Path_7" data-name="Path 7" d="M20.759,33.468,32.5,21.724H10.436a6.416,6.416,0,1,1,0-12.833H32.5" transform="translate(395.716 607.402)" fill="none" stroke="#e72fc1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-    <path id="Path_8" data-name="Path 8" d="M15.647,20.954H9.261V14.6" transform="translate(407.213 619.915)" fill="none" stroke="#e72fc1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="40" viewBox="0 0 37.655 44.243">
+    <g transform="translate(-1569.5 -996.879)">
+        <g transform="translate(-0.47)">
+        <path fill="none" stroke="#ffd900" stroke-width="3px" stroke-linejoin="round" stroke-linecap="round" d="M17.841,26.2,6.853,15.213H27.5A6.006,6.006,0,0,0,27.5,3.2H6.853" transform="translate(1572.617 1012.796)"/>
+        <path fill="none" stroke="#ffd900" stroke-width="3px" stroke-linejoin="round" stroke-linecap="round" d="M8.53,9.153h5.976V3.2" transform="translate(1575.951 1029.847)"/></g>
+        <path fill="none" stroke="#0056b8" stroke-width="3px" stroke-linejoin="round" stroke-linecap="round" d="M19.685,8.891,30.673,19.882H10.024a6.005,6.005,0,0,0,0,12.01H30.673" transform="translate(1566.98 990.109)"/><path fill="none" stroke="#0056b8" stroke-width="3px" stroke-linejoin="round" stroke-linecap="round" d="M15.237,14.6H9.261v5.947" transform="translate(1577.404 984.401)"/></g>
 </svg>
