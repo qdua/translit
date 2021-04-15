@@ -19,7 +19,7 @@ html {
 
 body {
     align-items: center;
-    background: linear-gradient(0deg, var(--yellow), var(--blue));
+    background: linear-gradient(-45deg, var(--yellow), var(--blue));
     display: flex;
     flex-direction: column;
     height: 100vh;
